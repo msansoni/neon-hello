@@ -1,0 +1,29 @@
+{
+  "name": "@msansoni/neon-hello",
+  "version": "0.1.0",
+  "description": "neon hello world",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msansoni/neon-hello.git"
+  },
+  "files": [
+    "native/index.node",
+    "lib"
+  ],
+  "author": "msansoni <neon@michaelsansoni.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.3.3"
+  },
+  "scripts": {
+    "install": "neon build --release"
+  },
+  "bugs": {
+    "url": "https://github.com/msansoni/neon-hello/issues"
+  },
+  "homepage": "https://github.com/msansoni/neon-hello#readme",
+  "directories": {
+    "lib": "lib"
+  }
+}
